@@ -1,0 +1,56 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .content {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .ctaButton {
+    background-color: #FF6F1E;
+    padding: 0.75rem 1.5rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ctaButton:hover {
+    background-color: #e65c00;
+  }
+  
+  @media (min-width: 768px) {
+    .title {
+      font-size: 4rem;
+    }
+    .subtitle {
+      font-size: 1.5rem;
+    }
+  }
+  

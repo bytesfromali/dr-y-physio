@@ -1,0 +1,21 @@
+.footer {
+  background-color: #333333; /* Dark gray */
+  color: white;
+  padding: 1.5rem 0;
+}
+
+.footerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.copyText {
+  font-size: 0.875rem;
+}
+
+.tagline {
+  font-size: 0.75rem;
+  margin-top: 0.5rem;
+}

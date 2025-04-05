@@ -2,9 +2,10 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 
-const Navbar = () => {
+export default function Navbar() {
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   return (
@@ -51,8 +52,12 @@ const Navbar = () => {
 
         {/* Mobile Menu Toggle */}
         <div className={styles.mobileToggle}>
-          <button onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}>
-            ☰
+          <button
+            onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
+            aria-label="Toggle Menu"
+            className={styles.toggleButton}
+          >
+            {isMobileMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
       </div>
@@ -96,6 +101,4 @@ const Navbar = () => {
       )}
     </nav>
   );
-};
-
-export default Navbar;
+}

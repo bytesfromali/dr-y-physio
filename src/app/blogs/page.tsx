@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import styles from "./blog.module.css";
+import styles from "./blogs.module.css";
 
 export const metadata: Metadata = {
   title: "Blog - Dr. Y Physio",
@@ -37,7 +37,7 @@ const blogPosts = [
 export default function BlogPage() {
   return (
     <div className={styles.blogPage}>
-      <h1 className={styles.pageTitle}>Blog</h1>
+      <h1 className={styles.pageTitle}>Dr. Y Physio Blogs</h1>
       <p className={styles.pageDescription}>
         Read our latest articles and health tips from the experts at Dr. Y
         Physio.
@@ -48,7 +48,7 @@ export default function BlogPage() {
             <h2 className={styles.postTitle}>{post.title}</h2>
             <p className={styles.postDate}>{post.date}</p>
             <p className={styles.postSnippet}>{post.snippet}</p>
-            <Link href={`/blog/${post.slug}`} className={styles.readMore}>
+            <Link href={`/blogs/${post.slug}`} className={styles.readMore}>
               Read More
             </Link>
           </div>

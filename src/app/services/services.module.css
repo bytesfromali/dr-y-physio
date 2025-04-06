@@ -1,0 +1,87 @@
+.pageWrapper {
+  width: 100%;
+  background-color: var(--color-light); /* Ensure full width background is light */
+}
+
+.servicesPage {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  background-color: var(--color-light);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.header p {
+  font-size: 1.1rem;
+  color: var(--color-dark);
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.servicesList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.serviceItem {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.serviceImage {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.serviceContent {
+  flex: 1;
+}
+
+.serviceContent h2 {
+  font-size: 1.8rem;
+  color: var(--color-accent);
+  margin-bottom: 0.5rem;
+}
+
+.serviceContent p {
+  font-size: 1rem;
+  color: var(--color-dark);
+  line-height: 1.6;
+}
+
+/* Responsive: Stack on smaller screens */
+@media (max-width: 768px) {
+  .serviceItem {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .serviceImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  .serviceContent {
+    margin-top: 1rem;
+  }
+}

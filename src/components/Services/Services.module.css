@@ -1,50 +1,101 @@
 .servicesSection {
-    background-color: var(--color-light);
-    padding: 2rem 0;
+  background-color: var(--color-light); /* Light background */
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 2rem;
+  padding: 0 1rem;
+  align-items: flex-start;
+}
+
+/* Left Column: Image & CTA Button */
+.imageColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.serviceImage {
+  width: 100%;
+  height: 500px;         /* Fixed height for uniformity */
+  object-fit: cover;     /* Ensures the image fills the container without distortion */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.ctaButton {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+  background-color: #e65c00;
+}
+
+/* Right Column: Accordion */
+.accordionColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordionItem {
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.accordionHeader {
+  background: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  color: var(--color-dark);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.accordionHeader:hover {
+  color: var(--color-accent);
+}
+
+.accordionHeader.active {
+  color: var(--color-accent);
+}
+
+.indicator {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordionContent {
+  overflow: hidden;
+  font-size: 1rem;
+  color: var(--color-dark);
+  padding: 0.5rem 0;
+}
+
+/* Responsive: stack columns on small screens */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
   }
-  
-  .sectionTitle {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--color-dark);
-    margin-bottom: 1.5rem;
-  }
-  
-  .servicesGrid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  }
-  
-  .serviceCard {
-    background-color: white;
-    border: 1px solid #e5e7eb;
-    border-radius: 0.5rem;
-    padding: 1.5rem;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .serviceCard:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .serviceIcon {
-    width: 60px;
-    height: 60px;
-    margin-bottom: 1rem;
-  }
-  
-  .serviceTitle {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
-    color: var(--color-primary);
-  }
-  
-  .serviceDescription {
-    font-size: 1rem;
-    color: var(--color-dark);
-  }
-  
+}

@@ -34,6 +34,11 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
+            <Link href="/team" className={styles.navLink}>
+              Our Team
+            </Link>
+          </li>
+          <li>
             <Link href="/blog" className={styles.navLink}>
               Blog
             </Link>
@@ -79,6 +84,11 @@ export default function Navbar() {
             <li>
               <Link href="/about" className={styles.mobileNavLink}>
                 About
+              </Link>
+            </li>
+            <li>
+              <Link href="/team" className={styles.mobileNavLink}>
+                Our Team
               </Link>
             </li>
             <li>

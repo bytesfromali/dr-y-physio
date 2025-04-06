@@ -5,7 +5,7 @@ const Hero = () => {
   return (
     <section
       className={styles.hero}
-      style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}
+      style={{ backgroundImage: "url('/images/dry-physio-team.jpeg')" }}
     >
       <div className={styles.overlay}></div>
       <div className={styles.content}>

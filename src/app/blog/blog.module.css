@@ -1,0 +1,69 @@
+.blogPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .pageTitle {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+  }
+  
+  .pageDescription {
+    text-align: center;
+    font-size: 1rem;
+    /* color: #555; */
+    color: var(--color-accent);
+  }
+  
+  .postsGrid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  
+  .postCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .postTitle {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .postDate {
+    font-size: 0.9rem;
+    color: #888;
+    margin-bottom: 0.5rem;
+  }
+  
+  .postSnippet {
+    font-size: 1rem;
+    color: var(--color-accent);
+    margin-bottom: 1rem;
+  }
+  
+  .readMore {
+    align-self: flex-start;
+    background-color: var(--color-accent);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .readMore:hover {
+    background-color: #e65c00;
+  }
+  

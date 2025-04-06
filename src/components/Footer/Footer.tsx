@@ -25,9 +25,11 @@ export default function Footer() {
               className={styles.logoImage}
             />
             <p className={styles.address}>
-              First Floor, A-42, Amaltash Marg,
+              First Floor, A-42, Amaltash Marg
               <br />
-              Block A, Sector 22, Noida
+              Block A, Sector 22
+              <br />
+              Noida, Uttar Pradesh 201301
             </p>
             {/* Phone & Email on separate rows */}
             <a
@@ -74,23 +76,6 @@ export default function Footer() {
               />
               <button type="submit">Subscribe</button>
             </form>
-            {/* <div className={styles.socialIcons}>
-              <Link href="https://www.facebook.com/dryphysio" target="_blank" aria-label="Facebook">
-                <FaFacebookF size={18} />
-              </Link>
-              <Link href="https://www.instagram.com/dryphysio/" target="_blank" aria-label="Instagram">
-                <FaInstagram size={18} />
-              </Link>
-              <Link href="https://www.linkedin.com/company/dryphysio" target="_blank" aria-label="LinkedIn">
-                <FaLinkedinIn size={18} />
-              </Link>
-              <Link href="https://www.youtube.com/@dryphysio" target="_blank" aria-label="YouTube">
-                <FaYoutube size={18} />
-              </Link>
-              <Link href="https://g.co/kgs/cBGgyLU" target="_blank" aria-label="Google">
-                <FaGoogle size={18} />
-              </Link>
-            </div> */}
           </div>
         </div>
       </div>

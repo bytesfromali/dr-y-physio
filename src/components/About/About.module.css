@@ -1,63 +1,82 @@
 .aboutSection {
-    background-color: var(--color-light);
-    padding: 4rem 0;
-  }
-  
+  background-color: #eaeaea; /* Slightly darker light background */
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row; /* Force two columns */
+  align-items: center;
+  gap: 2rem; /* Add spacing between columns */
+  padding: 0 1rem;
+}
+
+.imageContainer {
+  flex: 1;
+  padding: 1rem;
+  text-align: center;
+}
+
+.aboutImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-height: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.textContainer {
+  flex: 1;
+  padding: 1rem;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-dark);
+  margin-bottom: 1rem;
+}
+
+.subTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.sectionText {
+  font-size: 1rem;
+  color: var(--color-dark);
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.featuresList {
+  list-style: disc;
+  margin-left: 1.5rem;
+  color: var(--color-dark);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
   .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 0 1rem;
+    flex-direction: column;
+    gap: 1rem;
   }
-  
-  .imageContainer {
-    flex: 1 1 50%;
-    padding: 1rem;
+  .imageContainer,
+  .textContainer {
+    flex: 1 1 100%;
+  }
+  .sectionTitle {
     text-align: center;
   }
-  
-  .aboutImage {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  .sectionText,
+  .featuresList {
+    text-align: justify;
   }
-  
-  .textContainer {
-    flex: 1 1 50%;
-    padding: 1rem;
-  }
-  
-  .sectionTitle {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--color-dark);
-    margin-bottom: 1rem;
-  }
-  
-  .sectionText {
-    font-size: 1rem;
-    color: var(--color-dark);
-    margin-bottom: 1rem;
-    line-height: 1.6;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .container {
-      flex-direction: column;
-    }
-    .imageContainer,
-    .textContainer {
-      flex: 1 1 100%;
-    }
-    .sectionTitle {
-      text-align: center;
-    }
-    .sectionText {
-      text-align: justify;
-    }
-  }
-  
+}

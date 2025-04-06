@@ -29,6 +29,6 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: var(--color-accent);
-  cursor: pointer
+  cursor: pointer;
+  text-decoration: underline;
 }

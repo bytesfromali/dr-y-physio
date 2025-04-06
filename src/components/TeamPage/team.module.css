@@ -1,0 +1,106 @@
+.teamPage {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .pageTitle {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+  }
+  
+  .pageDescription {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--color-accent);
+  }
+  
+  .teamGrid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  /* Team Card Styling */
+  .teamCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .teamCard:hover {
+    transform: translateY(-5px);
+  }
+  
+  .teamImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .memberName {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary);
+  }
+  
+  .memberTitle {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--color-accent);
+  }
+  
+  /* Structured Information */
+  .structuredInfo {
+    margin-bottom: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--color-dark);
+  }
+  .degree,
+  .experience {
+    margin: 0.25rem 0;
+  }
+  
+  .memberBio {
+    font-size: 0.9rem;
+    color: var(--color-dark);
+    line-height: 1.4;
+  }
+  
+  .callToAction {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: var(--color-dark);
+  }
+  
+  .customLink {
+    color: var(--color-accent);
+    text-decoration: none;
+  }
+  .customLink:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 1024px) {
+    .teamGrid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .teamGrid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

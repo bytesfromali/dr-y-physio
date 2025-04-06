@@ -37,7 +37,7 @@
 /* Pill-shaped phone/email; ensure they are block-level for stacking */
 .pillContact {
   display: block;
-  background-color: #008080;
+  background-color: #e65c00;
   color: #fff;
   width: fit-content;
   padding: 0.5rem 1rem;
@@ -48,7 +48,7 @@
   transition: background-color 0.3s ease;
 }
 .pillContact:hover {
-  color: #e65c00;
+  background-color: #008080;
 }
 
 /* Hours Column */
@@ -95,7 +95,7 @@
   transition: background-color 0.3s ease;
 }
 .newsletterForm button:hover {
-  background-color: #e65c00;
+  background-color: #008080;
 }
 
 .socialIcons {

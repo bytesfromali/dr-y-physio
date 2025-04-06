@@ -1,55 +1,68 @@
 .testimonialsSection {
-    padding: 2rem 1rem;
-    background-color: #f8f8f8;
-    text-align: center;
-  }
-  
-  .sectionTitle {
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--color-dark);
-    margin-bottom: 1rem;
-  }
-  
-  .testimonialContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-  }
-  
-  .arrowButton {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: var(--color-primary);
-    transition: color 0.3s;
-  }
-  
-  .arrowButton:hover {
-    color: var(--color-accent);
-  }
-  
+  padding: 2rem 1rem;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-dark);
+  margin-bottom: 1rem;
+}
+
+.testimonialContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.arrowButton {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--color-primary);
+  transition: color 0.3s;
+}
+
+.arrowButton:hover {
+  color: var(--color-accent);
+}
+
+.testimonialCard {
+  width: 100%;
+  max-width: 600px;
+  min-height: 150px;
+  padding: 1rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.3s ease;
+  margin: 0 auto; /* Center horizontally */
+}
+
+/* On larger screens, enforce a fixed minimum width to prevent horizontal shifts */
+@media (min-width: 768px) {
   .testimonialCard {
-    max-width: 600px;
-    padding: 1rem;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 600px;
   }
-  
-  .reviewText {
-    font-size: 1rem;
-    color: var(--color-dark);
-    margin-bottom: 0.75rem;
-    font-style: italic;
-  }
-  
-  .clientName {
-    font-size: 0.9rem;
-    font-weight: bold;
-    color: var(--color-primary);
-  }
-  
+}
+
+.reviewText {
+  font-size: 1rem;
+  color: var(--color-dark);
+  margin-bottom: 0.75rem;
+  font-style: italic;
+}
+
+.clientName {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--color-primary);
+}

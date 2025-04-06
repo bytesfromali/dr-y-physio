@@ -1,169 +1,145 @@
-/* Full-width footer container */
 .footer {
+  background-color: #333; /* Dark background */
+  color: #fff;
   width: 100%;
+  font-size: 0.95rem;
+  line-height: 1.5;
 }
 
-/* --- TOP SECTION (Full Width Background) --- */
-.topSection {
-  background-color: #f2f2f2; /* Light gray background */
-  color: #333;
-  width: 100%;
-  padding: 2rem 0;
-}
-
-.innerContainer {
+/* --- TOP CONTAINER --- */
+.topContainer {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2rem;
-  padding: 0 1rem;
+  padding: 3rem 1rem;
+  justify-content: space-between;
 }
 
-/* Contact Column */
-.contactColumn {
-  flex: 1 1 300px;
-}
-.logoImage {
-  max-width: 30%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-.address {
-  margin-bottom: 1rem;
-  line-height: 1.4;
-}
-
-/* Pill-shaped phone/email; ensure they are block-level for stacking */
-.pillContact {
-  display: block;
-  background-color: #e65c00;
-  color: #fff;
-  width: fit-content;
-  padding: 0.5rem 1rem;
-  border-radius: 9999px;
-  margin-bottom: 0.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.3s ease;
-}
-.pillContact:hover {
-  background-color: #008080;
-}
-
-/* Hours Column */
-.hoursColumn {
+.column {
   flex: 1 1 200px;
+  min-width: 200px;
 }
+
+/* Titles */
 .columnTitle {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  font-weight: bold;
-}
-.hoursList {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.hoursList li {
-  margin: 0.25rem 0;
-}
-
-/* Stay in Touch Column */
-.stayInTouchColumn {
-  flex: 1 1 300px;
-}
-.newsletterForm {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  margin-top: 0.75rem;
-}
-.newsletterForm input {
-  padding: 0.5rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-}
-.newsletterForm button {
-  background-color: #ff6f1e;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
   color: #fff;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 0.9rem;
-  transition: background-color 0.3s ease;
-}
-.newsletterForm button:hover {
-  background-color: #008080;
 }
 
-.socialIcons {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
+/* Clinic Info */
+.logoImage {
+  max-width: 120px;
+  margin-bottom: 1rem;
 }
 
-/* --- BOTTOM SECTION (Full Width Background) --- */
-.bottomSection {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 1rem 1rem 2rem;
-}
-
-.bottomLinks {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
-  margin: 0;
-  padding: 0;
-}
-.bottomLinks a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 0.9rem;
-}
-.bottomLinks a:hover {
-  text-decoration: underline;
-  color: #ff6f1e;
-}
-
-.builtWithLove {
-  margin-top: 1rem;
-  font-size: 0.9rem;
+.address {
+  margin-bottom: 0.75rem;
   color: #ccc;
 }
 
-.socialIconsBottom {
-  margin-top: 1rem;
-  display: flex;
-  gap: 1rem;
-  justify-content: center;
+.phoneEmail {
+  margin-bottom: 0.5rem;
+  color: #ccc;
 }
 
-.socialIconsBottom a {
+.linkAccent {
   color: #ff6f1e;
+  text-decoration: none;
   transition: color 0.3s ease;
 }
-.socialIconsBottom a:hover {
+
+.linkAccent:hover {
   color: #e65c00;
 }
 
-.copy {
+.openingHoursTitle {
   margin-top: 1rem;
-  font-size: 0.85rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.5rem;
 }
 
-/* --- RESPONSIVE --- */
+.openingHoursList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  color: #ccc;
+}
+
+.openingHoursList li {
+  margin-bottom: 0.25rem;
+}
+
+/* Columns of Links */
+.columnLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.columnLinks li {
+  margin-bottom: 0.4rem;
+}
+
+.columnLinks a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.columnLinks a:hover {
+  color: #ff6f1e;
+}
+
+/* --- BOTTOM BAR --- */
+.bottomBar {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 1rem;
+  text-align: center;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.socialIcons a {
+  color: #ff6f1e;
+  transition: color 0.3s ease;
+}
+
+.socialIcons a:hover {
+  color: #e65c00;
+}
+
+.copyright {
+  margin-bottom: 0.25rem;
+  font-size: 0.85rem;
+  color: #ccc;
+}
+
+.builtBy {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+/* Responsive Adjustments */
 @media (max-width: 768px) {
-  .innerContainer {
+  .topContainer {
     flex-direction: column;
-    text-align: center;
+    align-items: flex-start;
   }
-  .newsletterForm {
-    max-width: 300px;
-    margin: 0.75rem auto 0;
+  .column {
+    flex: 1 1 100%;
+    margin-bottom: 1.5rem;
+  }
+  .socialIcons {
+    margin-top: 1rem;
   }
 }

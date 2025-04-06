@@ -53,8 +53,8 @@ export default function Testimonials() {
           <FaArrowLeft />
         </button>
         <div className={styles.testimonialCard}>
-          <p className={styles.reviewText}>"{testimonial.review}"</p>
-          <p className={styles.clientName}>- {testimonial.name}</p>
+          <p className={styles.reviewText}>&quot;{testimonial.review}&quot;</p>
+          <p className={styles.clientName}>&#8211; {testimonial.name}</p>
         </div>
         <button
           className={styles.arrowButton}

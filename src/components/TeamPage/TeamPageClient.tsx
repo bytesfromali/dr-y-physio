@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./team.module.css";
 
 const teamMembers = [
@@ -85,10 +86,13 @@ export default function TeamPageClient() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: member.id * 0.3 }}
           >
-            <img
+            <Image
               src={member.image}
               alt={member.name}
               className={styles.teamImage}
+              width={500}
+              height={500}
+              quality={90}
             />
             <h2 className={styles.memberName}>{member.name}</h2>
             <p className={styles.memberTitle}>{member.title}</p>

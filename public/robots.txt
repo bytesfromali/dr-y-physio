@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.dryphysio.com
+
+# Sitemaps
+Sitemap: https://www.dryphysio.com/sitemap.xml

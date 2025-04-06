@@ -4,6 +4,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaPlus, FaMinus } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
 import styles from "./Services.module.css";
 
 interface Service {
@@ -59,8 +60,12 @@ const servicesData: Service[] = [
 ];
 
 export default function Services() {
-  const [selectedService, setSelectedService] = useState<Service>(servicesData[0]);
-  const [expandedServiceId, setExpandedServiceId] = useState<number | null>(servicesData[0].id);
+  const [selectedService, setSelectedService] = useState<Service>(
+    servicesData[0]
+  );
+  const [expandedServiceId, setExpandedServiceId] = useState<number | null>(
+    servicesData[0].id
+  );
 
   const handleSelect = (service: Service) => {
     setSelectedService(service);
@@ -72,10 +77,13 @@ export default function Services() {
       <div className={styles.container}>
         {/* Left Column: Service Image & CTA Button */}
         <div className={styles.imageColumn}>
-          <img
+          <Image
             src={selectedService.image}
             alt={selectedService.title}
             className={styles.serviceImage}
+            width={500}
+            height={500}
+            quality={90}
           />
           <Link href="/appointments" className={styles.ctaButton}>
             Book Appointment

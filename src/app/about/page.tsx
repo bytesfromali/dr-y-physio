@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import styles from "./about.module.css";
 
 export const metadata: Metadata = {
@@ -14,10 +15,13 @@ export default function AboutPage() {
       <section className={styles.heroSection}>
         <div className={styles.container}>
           <div className={styles.imageContainer}>
-            <img
+            <Image
               src="/images/doctor-room.jpeg"
               alt="Dr. Y Physio Clinic"
               className={styles.aboutImage}
+              width={500} // set appropriate width
+              height={450} // set appropriate height
+              quality={90} // optional: adjust quality if needed
             />
           </div>
           <div className={styles.textContainer}>
@@ -69,10 +73,13 @@ export default function AboutPage() {
           </div>
           <div className={styles.imageColumn}>
             {/* Secondary image or graphic element */}
-            <img
+            <Image
               src="/images/clinic-lobby.jpeg"
               alt="Our Clinic Environment"
               className={styles.secondaryImage}
+              width={500}
+              height={350}
+              quality={90}
             />
           </div>
         </div>

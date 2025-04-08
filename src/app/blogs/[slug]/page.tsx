@@ -8,9 +8,7 @@ import styles from "./post.module.css";
 
 export async function generateStaticParams() {
   const posts = await getPosts();
-  return posts.map((post: any) => ({
-    slug: post.slug,
-  }));
+  return posts.map((post: any) => ({ slug: post.slug }));
 }
 
 export async function generateMetadata({
@@ -18,7 +16,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const { slug } = params;
+  const { slug } = await params;
   const post = await getPostBySlug(slug);
   return {
     title: decode(post.title.rendered),
@@ -31,16 +29,13 @@ export default async function BlogPostPage({
 }: {
   params: { slug: string };
 }) {
-  const { slug } = params;
+  const { slug } = await params;
   const post = await getPostBySlug(slug);
-  // Retrieve featured image from _embedded if available
   const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
-
-  // For related posts, a simple approach: fetch all posts, filter out the current one, and take the first 3.
-  let allPosts = await getPosts();
-  const relatedPosts = allPosts
-    .filter((p: any) => p.slug !== params.slug)
-    .slice(0, 3);
+  
+  // Get related posts: Filter out current post and take first 3.
+  const allPosts = await getPosts();
+  const relatedPosts = allPosts.filter((p: any) => p.slug !== slug).slice(0, 3);
 
   return (
     <main className={styles.postPage}>
@@ -61,9 +56,7 @@ export default async function BlogPostPage({
         </div>
       </header>
       <article className={styles.postContentWrapper}>
-        <p className={styles.postDate}>
-          {new Date(post.date).toLocaleDateString()}
-        </p>
+        <p className={styles.postDate}>{new Date(post.date).toLocaleDateString()}</p>
         <div
           className={styles.postContent}
           dangerouslySetInnerHTML={{ __html: post.content.rendered || "" }}
@@ -72,27 +65,30 @@ export default async function BlogPostPage({
       <section className={styles.relatedPosts}>
         <h2 className={styles.relatedTitle}>Related Posts</h2>
         <div className={styles.relatedGrid}>
-          {relatedPosts.map((rPost: any) => (
-            <div key={rPost.id} className={styles.relatedCard}>
-              {rPost._embedded?.["wp:featuredmedia"]?.[0]?.source_url ? (
-                <Image
-                  src={rPost._embedded["wp:featuredmedia"][0].source_url}
-                  alt={decode(rPost.title.rendered)}
-                  width={300}
-                  height={200}
-                  className={styles.relatedImage}
-                  quality={80}
-                />
-              ) : (
-                <div className={styles.relatedPlaceholder}>No Image</div>
-              )}
-              <h3 className={styles.relatedPostTitle}>
-                <Link href={`/blogs/${rPost.slug}`}>
-                  {decode(rPost.title.rendered)}
-                </Link>
-              </h3>
-            </div>
-          ))}
+          {relatedPosts.map((rPost: any) => {
+            const rImage = rPost._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+            return (
+              <div key={rPost.id} className={styles.relatedCard}>
+                {rImage ? (
+                  <Image
+                    src={rImage}
+                    alt={decode(rPost.title.rendered)}
+                    width={300}
+                    height={200}
+                    className={styles.relatedImage}
+                    quality={80}
+                  />
+                ) : (
+                  <div className={styles.relatedPlaceholder}>No Image</div>
+                )}
+                <h3 className={styles.relatedPostTitle}>
+                  <Link href={`/blogs/${rPost.slug}`}>
+                    {decode(rPost.title.rendered)}
+                  </Link>
+                </h3>
+              </div>
+            );
+          })}
         </div>
       </section>
       <div className={styles.backContainer}>

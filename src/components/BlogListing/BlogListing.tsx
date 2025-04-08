@@ -12,6 +12,7 @@ interface Post {
   title: { rendered: string };
   date: string;
   excerpt: { rendered: string };
+  _embedded?: { [key: string]: any };
 }
 
 interface BlogListingProps {
@@ -19,25 +20,23 @@ interface BlogListingProps {
 }
 
 export default function BlogListing({ posts }: BlogListingProps) {
-  // We'll start by showing 9 posts
   const initialCount = 9;
   const loadCount = 3;
   const [visibleCount, setVisibleCount] = useState(initialCount);
   const [searchQuery, setSearchQuery] = useState("");
 
-  // Filter posts based on search query; use title (and optionally excerpt)
+  // Filter posts based on the search query using the decoded title.
   const filteredPosts = posts.filter((post) =>
     decode(post.title.rendered).toLowerCase().includes(searchQuery.toLowerCase())
   );
 
   const postsToShow = filteredPosts.slice(0, visibleCount);
 
-  // Infinite Scroll: Listen to scroll event, load more posts when near bottom
+  // Infinite scrolling
   useEffect(() => {
     const handleScroll = () => {
       if (
-        window.innerHeight + window.scrollY >=
-          document.body.offsetHeight - 300 &&
+        window.innerHeight + window.scrollY >= document.body.offsetHeight - 300 &&
         visibleCount < filteredPosts.length
       ) {
         setVisibleCount((prev) => prev + loadCount);
@@ -58,44 +57,53 @@ export default function BlogListing({ posts }: BlogListingProps) {
           value={searchQuery}
           onChange={(e) => {
             setSearchQuery(e.target.value);
-            // Reset visible count on new search
             setVisibleCount(initialCount);
           }}
         />
       </div>
       <section className={styles.postsGrid}>
-        {postsToShow.map((post, index) => (
-          <motion.article
-            key={post.id}
-            className={styles.postCard}
-            initial={{ opacity: 0, y: 10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.1, duration: 0.4 }}
-          >
-            {/* Featured image should be rendered inside a fixed-size container */}
-            <div className={styles.featuredImageWrapper}>
-              <img
-                src="/images/placeholder-featured.jpg"
-                // Replace placeholder with dynamic logic if WP returns a featured image.
-                alt={decode(post.title.rendered)}
-                className={styles.featuredImage}
+        {postsToShow.map((post, index) => {
+          // Try to get the featured image from _embedded
+          const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+          return (
+            <motion.article
+              key={post.id}
+              className={styles.postCard}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1, duration: 0.4 }}
+            >
+              <div className={styles.featuredImageWrapper}>
+                {featuredImage ? (
+                  <img
+                    src={featuredImage}
+                    alt={decode(post.title.rendered)}
+                    className={styles.featuredImage}
+                  />
+                ) : (
+                  <img
+                    src="/images/placeholder-featured.jpg"
+                    alt={decode(post.title.rendered)}
+                    className={styles.featuredImage}
+                  />
+                )}
+              </div>
+              <h2 className={styles.postTitle}>
+                <Link href={`/blogs/${post.slug}`}>{decode(post.title.rendered)}</Link>
+              </h2>
+              <p className={styles.postDate}>
+                {new Date(post.date).toLocaleDateString()}
+              </p>
+              <div
+                className={styles.postExcerpt}
+                dangerouslySetInnerHTML={{ __html: post.excerpt.rendered || "" }}
               />
-            </div>
-            <h2 className={styles.postTitle}>
-              <Link href={`/blogs/${post.slug}`}>{decode(post.title.rendered)}</Link>
-            </h2>
-            <p className={styles.postDate}>
-              {new Date(post.date).toLocaleDateString()}
-            </p>
-            <div
-              className={styles.postExcerpt}
-              dangerouslySetInnerHTML={{ __html: post.excerpt.rendered || "" }}
-            />
-            <Link href={`/blogs/${post.slug}`} className={styles.readMore}>
-              Read More
-            </Link>
-          </motion.article>
-        ))}
+              <Link href={`/blogs/${post.slug}`} className={styles.readMore}>
+                Read More
+              </Link>
+            </motion.article>
+          );
+        })}
       </section>
     </>
   );

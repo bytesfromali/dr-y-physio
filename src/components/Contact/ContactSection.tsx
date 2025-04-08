@@ -26,7 +26,7 @@ export default function ContactSection() {
           </p>
         </div>
         <div className={styles.formAndMap}>
-          <form className={styles.contactForm}>
+          {/* <form className={styles.contactForm}>
             <h3 className={styles.formTitle}>Send Us a Message</h3>
             <input
               type="text"
@@ -53,6 +53,22 @@ export default function ContactSection() {
             ></textarea>
             <button type="submit" className={styles.submitButton}>
               Send Message
+            </button>
+          </form> */}
+          <form action='https://forms.zohopublic.com/dryphysio1/form/ContactUs/formperma/MLuiYvIonEdBdfbeBJSbdR5MhYLJ_rsikHPaXaD4GFk/htmlRecords/submit'
+          name='form' id='form' 
+          method='POST' acceptCharset="utf-8" autoComplete="off" className={styles.contactForm}
+          encType='multipart/form-data'>
+            <input type="hidden" name="zf_referrer_name" value=""></input>
+            <input type="hidden" name="zf_redirect_url" value=""></input>
+            <input type="hidden" name="zc_gad" value=""></input>
+            <h3 className={styles.formTitle}>Send Us a Message</h3>
+            <input title="First Name" className={styles.input} type="text" maxLength={255} name="Name_First" placeholder="First Name"></input>
+            <input title="Last Name" className={styles.input} type="text" maxLength={255} name="Name_Last" placeholder="Last Name"></input>
+            <input title="Email" className={styles.input} type="text" maxLength={255} name="Email" placeholder="Email"></input>
+            <textarea title="Message" className={styles.textarea} name="MultiLine" maxLength={65535} placeholder="Leave us a few words"></textarea>
+            <button type="submit" className={styles.submitButton}>
+              Submit
             </button>
           </form>
           <div className={styles.map}>

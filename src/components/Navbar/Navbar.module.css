@@ -23,6 +23,7 @@
 .navLinks {
   display: flex;
   gap: 1.5rem;
+  list-style-type: none;
 }
 
 .navLink {
@@ -62,6 +63,10 @@
 
 .mobileMenu {
   background-color: #008080;
+}
+
+.mobileNavLinks {
+  list-style-type: none;
 }
 
 .mobileNavLink {

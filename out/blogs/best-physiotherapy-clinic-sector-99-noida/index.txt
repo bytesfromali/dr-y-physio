@@ -1,0 +1,230 @@
+1:"$Sreact.fragment"
+2:I[443,["711","static/chunks/8e1d74a4-068cca8a61674e9c.js","874","static/chunks/874-001c506437d97105.js","413","static/chunks/413-ed2bfe75cc4c4db2.js","433","static/chunks/433-5cadcc09c239d549.js","177","static/chunks/app/layout-780a67301d0bb68e.js"],"default"]
+3:I[1151,["711","static/chunks/8e1d74a4-068cca8a61674e9c.js","874","static/chunks/874-001c506437d97105.js","413","static/chunks/413-ed2bfe75cc4c4db2.js","433","static/chunks/433-5cadcc09c239d549.js","177","static/chunks/app/layout-780a67301d0bb68e.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2681,["711","static/chunks/8e1d74a4-068cca8a61674e9c.js","874","static/chunks/874-001c506437d97105.js","413","static/chunks/413-ed2bfe75cc4c4db2.js","433","static/chunks/433-5cadcc09c239d549.js","177","static/chunks/app/layout-780a67301d0bb68e.js"],"default"]
+8:I[9665,[],"OutletBoundary"]
+b:I[9665,[],"ViewportBoundary"]
+d:I[9665,[],"MetadataBoundary"]
+f:I[6614,[],""]
+:HL["/_next/static/css/32557d3a62996f25.css","style"]
+:HL["/_next/static/css/5c6de1ad2f6f9e3f.css","style"]
+0:{"P":null,"b":"10QZBWtsEiKpvuCd-hwKx","p":"","c":["","blogs","best-physiotherapy-clinic-sector-99-noida",""],"i":false,"f":[[["",{"children":["blogs",{"children":[["slug","best-physiotherapy-clinic-sector-99-noida","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/32557d3a62996f25.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]}]]}],{"children":["blogs",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","best-physiotherapy-clinic-sector-99-noida","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7","$undefined",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5c6de1ad2f6f9e3f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",null]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-e4H-fH7zXzaUxZB8nsnO",{"children":[["$","$Lb",null,{"children":"$Lc"}],null]}],["$","$Ld",null,{"children":"$Le"}]]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+10:I[3063,["63","static/chunks/63-9c4f0ac4c7c5f278.js","874","static/chunks/874-001c506437d97105.js","744","static/chunks/app/blogs/%5Bslug%5D/page-c05554912b985b52.js"],"Image"]
+12:I[6874,["63","static/chunks/63-9c4f0ac4c7c5f278.js","874","static/chunks/874-001c506437d97105.js","744","static/chunks/app/blogs/%5Bslug%5D/page-c05554912b985b52.js"],""]
+a:null
+e:[["$","title","0",{"children":"🏆 Best Physiotherapy Clinic in Sector 99 Noida – Dr. Y Physio"}],["$","meta","1",{"name":"description","content":"If you&#8217;re looking for the best physiotherapy clinic in Sector 99 Noida, your search ends here. Dr. Y Physio is the leading physiotherapy center near Sector 99, known for its personalized care, qualified team, and advanced treatment modalities. 📌 Why Choose Dr. Y Physio – Best Physiotherapy Clinic in Sector 99 Noida? As a top-rated [&hellip;]\n"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+11:T1345,
+<p>If you&#8217;re looking for the <strong>best physiotherapy clinic in Sector 99 Noida</strong>, your search ends here. <strong>Dr. Y Physio</strong> is the leading physiotherapy center near Sector 99, known for its personalized care, qualified team, and advanced treatment modalities.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">📌 Why Choose Dr. Y Physio – Best Physiotherapy Clinic in Sector 99 Noida?</h3>
+
+
+
+<p>As a top-rated physiotherapy clinic, Dr. Y Physio offers everything you need under one roof:</p>
+
+
+
+<h4 class="wp-block-heading">✅ Comprehensive Care by Experts</h4>
+
+
+
+<p>Our team of certified physiotherapists, nutritionists, and rehab specialists work together to create a personalized plan for every patient.</p>
+
+
+
+<h4 class="wp-block-heading">✅ Services Offered at Our Sector 99 Noida Clinic</h4>
+
+
+
+<ul class="wp-block-list">
+<li>Orthopedic Physiotherapy</li>
+
+
+
+<li>Sports Injury Rehab</li>
+
+
+
+<li>Post-Operative Physiotherapy</li>
+
+
+
+<li>Neurological Therapy</li>
+
+
+
+<li>Pediatric Physio</li>
+
+
+
+<li>Geriatric Rehabilitation</li>
+
+
+
+<li>Dry Needling &amp; Cupping Therapy</li>
+
+
+
+<li>Online and Home-Based Physiotherapy</li>
+</ul>
+
+
+
+<p>We proudly serve patients in <strong>Sector 99</strong>, <strong>Sector 100</strong>, <strong>Sector 93</strong>, and nearby Noida sectors.</p>
+
+
+
+<h3 class="wp-block-heading">📚 Table of Contents</h3>
+
+
+
+<ol class="wp-block-list">
+<li>Introduction</li>
+
+
+
+<li>Why Choose Dr. Y Physio</li>
+
+
+
+<li>Services We Offer</li>
+
+
+
+<li>Location &amp; Contact</li>
+
+
+
+<li>Patient Reviews</li>
+
+
+
+<li>Book an Appointment</li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🏠 Accessible Location Near Sector 99 Noida</h3>
+
+
+
+<p>📍 <strong>Clinic Address:</strong><br><strong>Dr. Y Physio</strong>, C-48, First Floor, Sector 99, Noida<br>📞 Call or WhatsApp: <strong>+91 999-999-9999</strong><br>📧 Email: <strong><a>hello@dryphysio.com</a></strong><br>🌐 Website: <a class="" href="https://www.dryphysio.com" target="_blank" rel="noopener">www.dryphysio.com</a></p>
+
+
+
+<p>🕘 <strong>Clinic Timings:</strong><br>Mon–Fri: 10:00 AM – 8:00 PM<br>Sat–Sun: 11:00 AM – 8:00 PM</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🗣️ What Makes Us the Best in Sector 99?</h3>
+
+
+
+<p>Here are just a few reasons why Dr. Y Physio is considered the <strong>best physiotherapy clinic in Sector 99 Noida</strong>:</p>
+
+
+
+<ul class="wp-block-list">
+<li>🏆 Highly-rated Google reviews from local patients</li>
+
+
+
+<li>🛏️ In-clinic, home, and online sessions for complete convenience</li>
+
+
+
+<li>🧠 Treatment based on latest physiotherapy science and techniques</li>
+
+
+
+<li>🔬 Use of modern modalities like <strong>dry needling, cupping, ultrasound therapy, IFT, TENS</strong></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">📸 Our Clinic Gym and Treatment Room</h3>
+
+
+
+<figure class="wp-block-image aligncenter size-large is-resized"><img loading="lazy" decoding="async" width="1024" height="683" src="https://blog.dryphysio.com/wp-content/uploads/2025/04/exercise-area-1024x683.jpeg" alt="" class="wp-image-22" style="width:auto;height:400px" srcset="https://blog.dryphysio.com/wp-content/uploads/2025/04/exercise-area-1024x683.jpeg 1024w, https://blog.dryphysio.com/wp-content/uploads/2025/04/exercise-area-300x200.jpeg 300w, https://blog.dryphysio.com/wp-content/uploads/2025/04/exercise-area-768x512.jpeg 768w, https://blog.dryphysio.com/wp-content/uploads/2025/04/exercise-area.jpeg 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🧭 Patient Testimonial</h3>
+
+
+
+<p><em>&#8220;Dr. Y Physio is hands down the <strong>best physiotherapy clinic in Sector 99 Noida</strong>. Their dry needling sessions relieved my back pain in just 3 sessions!&#8221;</em><br>– <strong>Amit S., Sector 99 Resident</strong></p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🔗 Related Internal Links</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a>Book an Appointment</a></li>
+
+
+
+<li><a>Meet Our Team</a></li>
+
+
+
+<li><a>Our Full Range of Offerings</a></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">📝 Final Words</h3>
+
+
+
+<p>Your health and recovery deserve the best. Visit <strong>Dr. Y Physio – the best physiotherapy clinic in Sector 99 Noida</strong> – and experience care that transforms your well-being.</p>
+
+
+
+<p>📲 Book online at <a class="" href="https://www.dryphysio.com" target="_blank" rel="noopener">www.dryphysio.com</a> or call us today!</p>
+
+
+
+<p></p>
+7:["$","main",null,{"className":"post_postPage__4qq1R","children":[["$","header",null,{"className":"post_heroHeader__4PAb7","children":[["$","div",null,{"className":"post_heroBackground__wdNjc","children":["$","$L10",null,{"src":"https://blog.dryphysio.com/wp-content/uploads/2025/04/dry-physio-team-1.jpeg","alt":"🏆 Best Physiotherapy Clinic in Sector 99 Noida – Dr. Y Physio","fill":true,"quality":90,"className":"post_heroImage__pITts"}]}],["$","div",null,{"className":"post_heroContent__l_yZp","children":["$","h1",null,{"className":"post_postTitle__VdB9j","children":"🏆 Best Physiotherapy Clinic in Sector 99 Noida – Dr. Y Physio"}]}]]}],["$","article",null,{"className":"post_postContentWrapper__VkgYi","children":[["$","p",null,{"className":"post_postDate__OuQOV","children":"4/8/2025"}],["$","div",null,{"className":"post_postContent__ames9","dangerouslySetInnerHTML":{"__html":"$11"}}]]}],["$","section",null,{"className":"post_relatedPosts__wu4Td","children":[["$","h2",null,{"className":"post_relatedTitle__QwP_F","children":"Related Posts"}],["$","div",null,{"className":"post_relatedGrid__5Dtzn","children":[["$","div","31",{"className":"post_relatedCard__FwfX4","children":[["$","$L10",null,{"src":"https://blog.dryphysio.com/wp-content/uploads/2025/04/clinic-treatment-2.jpeg","alt":"💪 Sports Physiotherapy in Sector 22 Noida | Trusted by Athletes","width":300,"height":200,"className":"post_relatedImage__GaiAD","quality":80}],["$","h3",null,{"className":"post_relatedPostTitle__o7hZ3","children":["$","$L12",null,{"href":"/blogs/sports-physiotherapy-sector-22-noida","children":"💪 Sports Physiotherapy in Sector 22 Noida | Trusted by Athletes"}]}]]}],["$","div","1",{"className":"post_relatedCard__FwfX4","children":[["$","$L10",null,{"src":"https://blog.dryphysio.com/wp-content/uploads/2025/04/dry-physio-team-1.jpeg","alt":"Noida’s Best Physiotherapy Care","width":300,"height":200,"className":"post_relatedImage__GaiAD","quality":80}],["$","h3",null,{"className":"post_relatedPostTitle__o7hZ3","children":["$","$L12",null,{"href":"/blogs/best-physiotherapy-clinic-noida","children":"Noida’s Best Physiotherapy Care"}]}]]}]]}]]}],["$","div",null,{"className":"post_backContainer__I7M98","children":["$","$L12",null,{"href":"/blogs","className":"post_backLink__aQzDi","children":"← Back to Blog"}]}]]}]

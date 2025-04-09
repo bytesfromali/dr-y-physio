@@ -70,51 +70,53 @@ const teamMembers = [
 
 export default function TeamPageClient() {
   return (
-    <div className={styles.teamPage}>
-      <h1 className={styles.pageTitle}>Our Team</h1>
-      <p className={styles.pageDescription}>
-        At Dr. Y Physio, our dedicated team of physiotherapists, nutritionists,
-        and interns combines advanced qualifications with hands-on experience to
-        deliver exceptional care in Noida.
-      </p>
-      <div className={styles.teamGrid}>
-        {teamMembers.map((member) => (
-          <motion.div
-            key={member.id}
-            className={styles.teamCard}
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5, delay: member.id * 0.3 }}
-          >
-            <Image
-              src={member.image}
-              alt={member.name}
-              className={styles.teamImage}
-              width={500}
-              height={500}
-              quality={90}
-            />
-            <h2 className={styles.memberName}>{member.name}</h2>
-            <p className={styles.memberTitle}>{member.title}</p>
-            <div className={styles.structuredInfo}>
-              <p className={styles.degree}>
-                <strong>Degree:</strong> {member.degree}
-              </p>
-              <p className={styles.experience}>
-                <strong>Experience:</strong> {member.experience}
-              </p>
-            </div>
-            <p className={styles.memberBio}>{member.description}</p>
-          </motion.div>
-        ))}
-      </div>
-      <p className={styles.callToAction}>
-        Interested in joining our team?{" "}
-        <Link href="/contact" className={styles.customLink}>
-          Contact us
-        </Link>{" "}
-        for career opportunities.
-      </p>
+    <div className={styles.pageWrapper}>
+      <main className={styles.teamPage}>
+        <h1 className={styles.pageTitle}>Our Team</h1>
+        <p className={styles.pageDescription}>
+          At Dr. Y Physio, our dedicated team of physiotherapists,
+          nutritionists, and interns combines advanced qualifications with
+          hands-on experience to deliver exceptional care in Noida.
+        </p>
+        <div className={styles.teamGrid}>
+          {teamMembers.map((member) => (
+            <motion.div
+              key={member.id}
+              className={styles.teamCard}
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: member.id * 0.3 }}
+            >
+              <Image
+                src={member.image}
+                alt={member.name}
+                className={styles.teamImage}
+                width={500}
+                height={500}
+                quality={90}
+              />
+              <h2 className={styles.memberName}>{member.name}</h2>
+              <p className={styles.memberTitle}>{member.title}</p>
+              <div className={styles.structuredInfo}>
+                <p className={styles.degree}>
+                  <strong>Degree:</strong> {member.degree}
+                </p>
+                <p className={styles.experience}>
+                  <strong>Experience:</strong> {member.experience}
+                </p>
+              </div>
+              <p className={styles.memberBio}>{member.description}</p>
+            </motion.div>
+          ))}
+        </div>
+        <p className={styles.callToAction}>
+          Interested in joining our team?{" "}
+          <Link href="/contact" className={styles.customLink}>
+            Contact us
+          </Link>{" "}
+          for career opportunities.
+        </p>
+      </main>
     </div>
   );
 }

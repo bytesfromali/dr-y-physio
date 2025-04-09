@@ -9,6 +9,7 @@ import {
   FaGoogle,
 } from "react-icons/fa";
 import styles from "./Footer.module.css";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -16,7 +17,14 @@ export default function Footer() {
       <div className={styles.topContainer}>
         {/* Column 1: Clinic Info */}
         <div className={styles.column}>
-          <h3 className={styles.columnTitle}>Dr. Y Physio</h3>
+          <Image
+            src={"/images/drphysio-logo.png"}
+            alt="Dr. Y Physio is Noida's best physiotherapy clinic"
+            title="Dr. Y Physio is Noida's best physiotherapy clinic"
+            width={150}
+            height={80}
+          ></Image>
+          {/* <h3 className={styles.columnTitle}>Dr. Y Physio</h3> */}
           <p className={styles.address}>
             First Floor, A-42, Amaltash Marg
             <br />
@@ -179,19 +187,39 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className={styles.bottomBar}>
         <div className={styles.socialIcons}>
-          <Link href="https://www.facebook.com/dryphysio" target="_blank" aria-label="Facebook">
+          <Link
+            href="https://www.facebook.com/dryphysio"
+            target="_blank"
+            aria-label="Facebook"
+          >
             <FaFacebookF size={18} />
           </Link>
-          <Link href="https://www.instagram.com/dryphysio/" target="_blank" aria-label="Instagram">
+          <Link
+            href="https://www.instagram.com/dryphysio/"
+            target="_blank"
+            aria-label="Instagram"
+          >
             <FaInstagram size={18} />
           </Link>
-          <Link href="https://www.linkedin.com/company/dryphysio" target="_blank" aria-label="LinkedIn">
+          <Link
+            href="https://www.linkedin.com/company/dryphysio"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
             <FaLinkedinIn size={18} />
           </Link>
-          <Link href="https://www.youtube.com/@dryphysio" target="_blank" aria-label="YouTube">
+          <Link
+            href="https://www.youtube.com/@dryphysio"
+            target="_blank"
+            aria-label="YouTube"
+          >
             <FaYoutube size={18} />
           </Link>
-          <Link href="https://g.co/kgs/cBGgyLU" target="_blank" aria-label="Google">
+          <Link
+            href="https://g.co/kgs/cBGgyLU"
+            target="_blank"
+            aria-label="Google"
+          >
             <FaGoogle size={18} />
           </Link>
         </div>

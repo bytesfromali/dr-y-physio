@@ -1,10 +1,11 @@
 "use client";
-
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { decode } from "html-entities";
 import styles from "@/app/blogs/blogs.module.css";
+import Image from "next/image";
 
 interface Post {
   id: number;
@@ -27,7 +28,9 @@ export default function BlogListing({ posts }: BlogListingProps) {
 
   // Filter posts based on the search query using the decoded title.
   const filteredPosts = posts.filter((post) =>
-    decode(post.title.rendered).toLowerCase().includes(searchQuery.toLowerCase())
+    decode(post.title.rendered)
+      .toLowerCase()
+      .includes(searchQuery.toLowerCase())
   );
 
   const postsToShow = filteredPosts.slice(0, visibleCount);
@@ -36,7 +39,8 @@ export default function BlogListing({ posts }: BlogListingProps) {
   useEffect(() => {
     const handleScroll = () => {
       if (
-        window.innerHeight + window.scrollY >= document.body.offsetHeight - 300 &&
+        window.innerHeight + window.scrollY >=
+          document.body.offsetHeight - 300 &&
         visibleCount < filteredPosts.length
       ) {
         setVisibleCount((prev) => prev + loadCount);
@@ -64,7 +68,8 @@ export default function BlogListing({ posts }: BlogListingProps) {
       <section className={styles.postsGrid}>
         {postsToShow.map((post, index) => {
           // Try to get the featured image from _embedded
-          const featuredImage = post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
+          const featuredImage =
+            post._embedded?.["wp:featuredmedia"]?.[0]?.source_url;
           return (
             <motion.article
               key={post.id}
@@ -75,32 +80,44 @@ export default function BlogListing({ posts }: BlogListingProps) {
             >
               <div className={styles.featuredImageWrapper}>
                 {featuredImage ? (
-                  <img
+                  <Image
                     src={featuredImage}
                     alt={decode(post.title.rendered)}
                     className={styles.featuredImage}
-                  />
+                    width={500} // set appropriate width
+                    height={450} // set appropriate height
+                    quality={90} // optional: adjust quality if needed
+                  ></Image>
                 ) : (
-                  <img
-                    src="/images/placeholder-featured.jpg"
+                  <Image
+                    src={"/images/dry-physio-team.jpeg"}
                     alt={decode(post.title.rendered)}
                     className={styles.featuredImage}
-                  />
+                    width={500} // set appropriate width
+                    height={450} // set appropriate height
+                    quality={90} // optional: adjust quality if needed
+                  ></Image>
                 )}
               </div>
               <h2 className={styles.postTitle}>
-                <Link href={`/blogs/${post.slug}`}>{decode(post.title.rendered)}</Link>
+                <Link href={`/blogs/${post.slug}`}>
+                  {decode(post.title.rendered)}
+                </Link>
               </h2>
               <p className={styles.postDate}>
                 {new Date(post.date).toLocaleDateString()}
               </p>
               <div
                 className={styles.postExcerpt}
-                dangerouslySetInnerHTML={{ __html: post.excerpt.rendered || "" }}
+                dangerouslySetInnerHTML={{
+                  __html: post.excerpt.rendered || "",
+                }}
               />
-              <Link href={`/blogs/${post.slug}`} className={styles.readMore}>
-                Read More
-              </Link>
+              <div className={styles.postReadMore}>
+                <Link href={`/blogs/${post.slug}`} className={styles.readMore}>
+                  Read More
+                </Link>
+              </div>
             </motion.article>
           );
         })}

@@ -1,0 +1,250 @@
+1:"$Sreact.fragment"
+2:I[443,["711","static/chunks/8e1d74a4-068cca8a61674e9c.js","874","static/chunks/874-001c506437d97105.js","413","static/chunks/413-ed2bfe75cc4c4db2.js","433","static/chunks/433-5cadcc09c239d549.js","177","static/chunks/app/layout-780a67301d0bb68e.js"],"default"]
+3:I[1151,["711","static/chunks/8e1d74a4-068cca8a61674e9c.js","874","static/chunks/874-001c506437d97105.js","413","static/chunks/413-ed2bfe75cc4c4db2.js","433","static/chunks/433-5cadcc09c239d549.js","177","static/chunks/app/layout-780a67301d0bb68e.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2681,["711","static/chunks/8e1d74a4-068cca8a61674e9c.js","874","static/chunks/874-001c506437d97105.js","413","static/chunks/413-ed2bfe75cc4c4db2.js","433","static/chunks/433-5cadcc09c239d549.js","177","static/chunks/app/layout-780a67301d0bb68e.js"],"default"]
+8:I[9665,[],"OutletBoundary"]
+b:I[9665,[],"ViewportBoundary"]
+d:I[9665,[],"MetadataBoundary"]
+f:I[6614,[],""]
+:HL["/_next/static/css/32557d3a62996f25.css","style"]
+:HL["/_next/static/css/5c6de1ad2f6f9e3f.css","style"]
+0:{"P":null,"b":"10QZBWtsEiKpvuCd-hwKx","p":"","c":["","blogs","sports-physiotherapy-sector-22-noida",""],"i":false,"f":[[["",{"children":["blogs",{"children":[["slug","sports-physiotherapy-sector-22-noida","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/32557d3a62996f25.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__variable_4d318d __variable_ea5f4b antialiased","children":[["$","$L2",null,{}],["$","$L3",null,{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","$L6",null,{}]]}]}]]}],{"children":["blogs",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slug","sports-physiotherapy-sector-22-noida","d"],["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L7","$undefined",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/5c6de1ad2f6f9e3f.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",null]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ptEtGRzrNOxjsY6TQZQ_a",{"children":[["$","$Lb",null,{"children":"$Lc"}],null]}],["$","$Ld",null,{"children":"$Le"}]]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+10:I[3063,["63","static/chunks/63-9c4f0ac4c7c5f278.js","874","static/chunks/874-001c506437d97105.js","744","static/chunks/app/blogs/%5Bslug%5D/page-c05554912b985b52.js"],"Image"]
+12:I[6874,["63","static/chunks/63-9c4f0ac4c7c5f278.js","874","static/chunks/874-001c506437d97105.js","744","static/chunks/app/blogs/%5Bslug%5D/page-c05554912b985b52.js"],""]
+a:null
+e:[["$","title","0",{"children":"💪 Sports Physiotherapy in Sector 22 Noida | Trusted by Athletes"}],["$","meta","1",{"name":"description","content":"If you&#8217;re searching for expert sports physiotherapy in Sector 22 Noida, you&#8217;re in the right place. At Dr. Y Physio, we specialize in injury rehabilitation, pain relief, and performance enhancement for athletes and active individuals. Led by Dr. Yusuf (MPT in Sports Physiotherapy), our clinic offers professional-grade physiotherapy, kinesiology taping, and recovery programs tailored to [&hellip;]\n"}],["$","link","2",{"rel":"icon","href":"/favicon.ico","type":"image/x-icon","sizes":"16x16"}]]
+11:T196d,
+<p>If you&#8217;re searching for <strong>expert sports physiotherapy in Sector 22 Noida</strong>, you&#8217;re in the right place. At <strong>Dr. Y Physio</strong>, we specialize in injury rehabilitation, pain relief, and performance enhancement for athletes and active individuals.</p>
+
+
+
+<p>Led by <strong>Dr. Yusuf (MPT in Sports Physiotherapy)</strong>, our clinic offers professional-grade physiotherapy, <strong>kinesiology taping</strong>, and <strong>recovery programs</strong> tailored to your sport and body type.</p>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">📚 Table of Contents</h3>
+
+
+
+<ol class="wp-block-list">
+<li>Introduction</li>
+
+
+
+<li>Why Choose Dr. Y Physio for Sports Physiotherapy in Sector 22 Noida</li>
+
+
+
+<li>Kinesiology Taping – Advanced Recovery Technique</li>
+
+
+
+<li>Sports Injuries We Treat</li>
+
+
+
+<li>Real Testimonials from Sector 22 Patients</li>
+
+
+
+<li>Internal Resources</li>
+
+
+
+<li>Contact &amp; Directions</li>
+</ol>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🏆 Why Choose Dr. Y Physio for Sports Physiotherapy in Sector 22 Noida?</h3>
+
+
+
+<p>We’re not just a clinic—we’re a <strong>high-performance recovery center</strong> for athletes, gym-goers, and weekend warriors. Located near <strong>Noida Stadium</strong>, our clinic is perfect for those looking for <strong>sports physiotherapy in Sector 22 Noida</strong> and surrounding areas.</p>
+
+
+
+<h4 class="wp-block-heading">👨‍⚕️ Dr. Yusuf – Sports Physio Specialist</h4>
+
+
+
+<p>Dr. Yusuf holds a <strong>Master’s degree in Sports Physiotherapy (MPT)</strong> and has treated 1,000+ athletes with issues ranging from hamstring pulls to ACL rehab. His expertise lies in:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Sport-specific rehab protocols</li>
+
+
+
+<li>Kinesiology Taping</li>
+
+
+
+<li>Functional training &amp; muscle reconditioning</li>
+
+
+
+<li>Dry needling &amp; cupping therapy</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🩹 Kinesiology Taping for Athletic Support &amp; Injury Recovery</h3>
+
+
+
+<p><strong>Kinesiology taping</strong> is a revolutionary technique to support injured muscles, reduce swelling, and prevent re-injury. Used in elite sports worldwide, we offer professional taping services for:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Shoulder &amp; knee support</li>
+
+
+
+<li>Muscle fatigue &amp; cramp prevention</li>
+
+
+
+<li>Post-surgical rehabilitation</li>
+
+
+
+<li>Performance boosting</li>
+</ul>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>Whether you&#8217;re recovering from a gym injury or preparing for a tournament, kinesiology taping can be the game-changer you need.</p>
+</blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🏋️‍♂️ Common Sports Injuries We Treat</h3>
+
+
+
+<p>At <strong>Dr. Y Physio</strong>, we offer expert <strong>sports physiotherapy in Sector 22 Noida</strong> for:</p>
+
+
+
+<ul class="wp-block-list">
+<li>Tennis/Golfer’s Elbow</li>
+
+
+
+<li>Runner’s Knee &amp; Shin Splints</li>
+
+
+
+<li>Rotator Cuff Injuries</li>
+
+
+
+<li>ACL &amp; Meniscus Rehab</li>
+
+
+
+<li>Ankle Sprains &amp; Ligament Tears</li>
+
+
+
+<li>Back &amp; Neck Pain from Training Overload</li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🌟 Testimonials from Sector 22 Patients</h3>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>🗣️ <strong>&#8220;I strained my shoulder during cricket practice at Noida Stadium. Dr. Yusuf’s taping and strengthening program had me back on the pitch within 10 days. Highly recommend for any sport-related issues!&#8221;</strong><br>— <strong>Sahil M., Sector 22 Noida</strong></p>
+</blockquote>
+
+
+
+<blockquote class="wp-block-quote is-layout-flow wp-block-quote-is-layout-flow">
+<p>🗣️ <strong>&#8220;I’m a marathon runner and had recurring knee pain. The sports physiotherapy sessions and kinesiology taping at Dr. Y Physio helped me run pain-free again.&#8221;</strong><br>— <strong>Ritika S., Sector 21 Noida</strong></p>
+</blockquote>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">🔗 Useful Internal Resources</h3>
+
+
+
+<ul class="wp-block-list">
+<li><a class="" href="https://www.dryphysio.com/appointments/" target="_blank" rel="noopener">Book a Session</a></li>
+
+
+
+<li><a class="" href="https://www.dryphysio.com/services/" target="_blank" rel="noopener">Our Full Range of Services</a></li>
+
+
+
+<li><a class="" href="https://www.dryphysio.com/team/" target="_blank" rel="noopener">Meet Dr. Yusuf &amp; Team</a></li>
+
+
+
+<li><a class="" href="https://www.dryphysio.com/contact/" target="_blank" rel="noopener">Contact Page</a></li>
+
+
+
+<li><a class="" href="https://www.dryphysio.com/faq/" target="_blank" rel="noopener">Frequently Asked Questions</a></li>
+</ul>
+
+
+
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+
+
+
+<h3 class="wp-block-heading">📍 Contact – Near Noida Stadium, Close to Sector 22</h3>
+
+
+
+<p>📌 <strong>Address:</strong> Dr. Y Physio, C-48, First Floor, Sector 99, Noida<br>📞 <strong>Call/WhatsApp:</strong> +91 999-999-9999<br>📧 <strong>Email:</strong> <a>hello@dryphysio.com</a><br>🌐 <strong>Website:</strong> <a class="" href="https://www.dryphysio.com" target="_blank" rel="noopener">www.dryphysio.com</a></p>
+
+
+
+<p>🕘 <strong>Clinic Hours:</strong><br>Monday–Friday: 10:00 AM – 8:00 PM<br>Saturday–Sunday: 11:00 AM – 8:00 PM</p>
+
+
+
+<figure class="wp-block-image size-large is-resized has-custom-border is-style-rounded"><img loading="lazy" decoding="async" width="1024" height="683" src="https://blog.dryphysio.com/wp-content/uploads/2025/04/clinic-treatment-2-1024x683.jpeg" alt="Sports Rehab with Kinesiology Taping" class="wp-image-18" style="border-style:none;border-width:0px;border-radius:30px;width:auto;height:400px" srcset="https://blog.dryphysio.com/wp-content/uploads/2025/04/clinic-treatment-2-1024x683.jpeg 1024w, https://blog.dryphysio.com/wp-content/uploads/2025/04/clinic-treatment-2-300x200.jpeg 300w, https://blog.dryphysio.com/wp-content/uploads/2025/04/clinic-treatment-2-768x512.jpeg 768w, https://blog.dryphysio.com/wp-content/uploads/2025/04/clinic-treatment-2.jpeg 1536w" sizes="auto, (max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p></p>
+7:["$","main",null,{"className":"post_postPage__4qq1R","children":[["$","header",null,{"className":"post_heroHeader__4PAb7","children":[["$","div",null,{"className":"post_heroBackground__wdNjc","children":["$","$L10",null,{"src":"https://blog.dryphysio.com/wp-content/uploads/2025/04/clinic-treatment-2.jpeg","alt":"💪 Sports Physiotherapy in Sector 22 Noida | Trusted by Athletes","fill":true,"quality":90,"className":"post_heroImage__pITts"}]}],["$","div",null,{"className":"post_heroContent__l_yZp","children":["$","h1",null,{"className":"post_postTitle__VdB9j","children":"💪 Sports Physiotherapy in Sector 22 Noida | Trusted by Athletes"}]}]]}],["$","article",null,{"className":"post_postContentWrapper__VkgYi","children":[["$","p",null,{"className":"post_postDate__OuQOV","children":"4/8/2025"}],["$","div",null,{"className":"post_postContent__ames9","dangerouslySetInnerHTML":{"__html":"$11"}}]]}],["$","section",null,{"className":"post_relatedPosts__wu4Td","children":[["$","h2",null,{"className":"post_relatedTitle__QwP_F","children":"Related Posts"}],["$","div",null,{"className":"post_relatedGrid__5Dtzn","children":[["$","div","27",{"className":"post_relatedCard__FwfX4","children":[["$","$L10",null,{"src":"https://blog.dryphysio.com/wp-content/uploads/2025/04/dry-physio-team-1.jpeg","alt":"🏆 Best Physiotherapy Clinic in Sector 99 Noida – Dr. Y Physio","width":300,"height":200,"className":"post_relatedImage__GaiAD","quality":80}],["$","h3",null,{"className":"post_relatedPostTitle__o7hZ3","children":["$","$L12",null,{"href":"/blogs/best-physiotherapy-clinic-sector-99-noida","children":"🏆 Best Physiotherapy Clinic in Sector 99 Noida – Dr. Y Physio"}]}]]}],["$","div","1",{"className":"post_relatedCard__FwfX4","children":[["$","$L10",null,{"src":"https://blog.dryphysio.com/wp-content/uploads/2025/04/dry-physio-team-1.jpeg","alt":"Noida’s Best Physiotherapy Care","width":300,"height":200,"className":"post_relatedImage__GaiAD","quality":80}],["$","h3",null,{"className":"post_relatedPostTitle__o7hZ3","children":["$","$L12",null,{"href":"/blogs/best-physiotherapy-clinic-noida","children":"Noida’s Best Physiotherapy Care"}]}]]}]]}]]}],["$","div",null,{"className":"post_backContainer__I7M98","children":["$","$L12",null,{"href":"/blogs","className":"post_backLink__aQzDi","children":"← Back to Blog"}]}]]}]

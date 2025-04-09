@@ -70,7 +70,7 @@ export default function Navbar() {
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
         <div className={styles.mobileMenu}>
-          <ul>
+          <ul className={styles.mobileNavLinks}>
             <li>
               <Link href="/" className={styles.mobileNavLink}>
                 Home

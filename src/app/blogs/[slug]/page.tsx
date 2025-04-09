@@ -1,4 +1,5 @@
 // src/app/blogs/[slug]/page.tsx
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +15,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
   const post = await getPostBySlug(slug);
@@ -27,7 +28,7 @@ export async function generateMetadata({
 export default async function BlogPostPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
   const post = await getPostBySlug(slug);

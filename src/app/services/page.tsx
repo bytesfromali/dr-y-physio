@@ -25,8 +25,9 @@ export default function ServicesPage() {
           {/* Repeat service items as before */}
           <article className={styles.serviceItem}>
             <Image
-              src="/images/service-clinic.jpg"
-              alt="In-Clinic Physiotherapy"
+              src="/images/clinic-treatment-4.jpeg"
+              alt="Dr. Y Physio Provides best In-Clinic Physiotherapy in Noida"
+              title="Dr. Y Physio Provides best In-Clinic Physiotherapy in Noida"
               className={styles.serviceImage}
               width={500}
               height={500}
@@ -44,8 +45,9 @@ export default function ServicesPage() {
           </article>
           <article className={styles.serviceItem}>
             <Image
-              src="/images/service-home.jpg"
-              alt="Home Visit Physiotherapy"
+              src="/images/in-house.jpeg"
+              alt="Dr. Y Physio Provides best Home Visit Physiotherapy in Noida"
+              title="Dr. Y Physio Provides best Home Visit Physiotherapy in Noida"
               className={styles.serviceImage}
               width={500}
               height={500}
@@ -63,8 +65,9 @@ export default function ServicesPage() {
           </article>
           <article className={styles.serviceItem}>
             <Image
-              src="/images/service-online.jpg"
-              alt="Online Consultation"
+              src="/images/remote-consultancy.jpg"
+              alt="Dr. Y Physio Provides best Online Physiotherapy Consultation which is Cheap to the pocket in Noida and rest of India"
+              title="Dr. Y Physio Provides best Online Physiotherapy Consultation which is Cheap to the pocket in Noida and rest of India"
               className={styles.serviceImage}
               width={500}
               height={500}
@@ -81,8 +84,9 @@ export default function ServicesPage() {
           </article>
           <article className={styles.serviceItem}>
             <Image
-              src="/images/service-sports.jpg"
-              alt="Sports Rehabilitation"
+              src="/images/clinic-treatment-2.jpeg"
+              alt="Dr. Y Physio Provides best Sports Rehabilitation services in Noida"
+              title="Dr. Y Physio Provides best Sports Rehabilitation services in Noida"
               className={styles.serviceImage}
               width={500}
               height={500}
@@ -100,8 +104,9 @@ export default function ServicesPage() {
           </article>
           <article className={styles.serviceItem}>
             <Image
-              src="/images/service-ortho.jpg"
-              alt="Orthopedic Physiotherapy"
+              src="/images/clinic-treatment-3.jpeg"
+              alt="Dr. Y Physio Provides best Orthopedic Physiotherapy services in Noida"
+              title="Dr. Y Physio Provides best Orthopedic Physiotherapy services in Noida"
               className={styles.serviceImage}
               width={500}
               height={500}
@@ -119,8 +124,9 @@ export default function ServicesPage() {
           </article>
           <article className={styles.serviceItem}>
             <Image
-              src="/images/service-posture.jpg"
-              alt="Postural Correction & Ergonomics"
+              src="/images/clinic-treatment-1.jpeg"
+              alt="Dr. Y Physio Provides best Physiotherapy services related to Postural Correction & Ergonomics in Noida"
+              title="Dr. Y Physio Provides best Physiotherapy services related to Postural Correction & Ergonomics in Noida"
               className={styles.serviceImage}
               width={500}
               height={500}
